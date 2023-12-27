@@ -1,0 +1,19 @@
+0 get y
+0 put x 1
+0 get x
+0 put y 8
+0 put z 5
+0 put w 3
+1 get k
+1 get z
+1 put x 7
+1 put y 2
+1 put w 8
+2 put x 4
+2 put y 6
+2 put z 7
+2 get w
+2 get x
+3 get y
+3 put y 9
+3 get z

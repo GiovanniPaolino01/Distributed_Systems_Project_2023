@@ -1,0 +1,388 @@
+version 3
+run DS_Project-0-20230913-00:31:41-30744
+attr configname DS_Project
+attr datetime 20230913-00:31:41
+attr datetimef 20230913-003141
+attr experiment DS_Project
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network net_QuorumBased
+attr processid 30744
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network net_QuorumBased
+
+par net_QuorumBased.coord[0].out[0].channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.coord[0].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[0].out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[0].out[0].channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.node[0].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[0].out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[3].out[0].channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.coord[3].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[3].out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[4].out[0].channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.node[4].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[4].out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[2].out[0].channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.coord[2].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[2].out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[5].out[0].channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.node[5].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[5].out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[1].out[0].channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.coord[1].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[1].out[0].channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[0].out[1].channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.node[0].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[0].out[1].channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[0].out[1].channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.coord[0].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[0].out[1].channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[1].out[0].channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.node[1].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[1].out[0].channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[3].out[1].channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.coord[3].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[3].out[1].channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[5].out[1].channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.node[5].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[5].out[1].channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[2].out[1].channel typename "\"net_QuorumBased.Channel3\""
+par net_QuorumBased.coord[2].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[2].out[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[0].out[2].channel typename "\"net_QuorumBased.Channel3\""
+par net_QuorumBased.node[0].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[0].out[2].channel delay 0.5s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[1].out[1].channel typename "\"net_QuorumBased.Channel3\""
+par net_QuorumBased.coord[1].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[1].out[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[1].out[1].channel typename "\"net_QuorumBased.Channel3\""
+par net_QuorumBased.node[1].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[1].out[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[0].out[2].channel typename "\"net_QuorumBased.Channel3\""
+par net_QuorumBased.coord[0].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[0].out[2].channel delay 0.5s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[2].out[0].channel typename "\"net_QuorumBased.Channel3\""
+par net_QuorumBased.node[2].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[2].out[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[3].out[2].channel typename "\"net_QuorumBased.Channel4\""
+par net_QuorumBased.coord[3].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[3].out[2].channel delay 0.8s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[0].out[3].channel typename "\"net_QuorumBased.Channel4\""
+par net_QuorumBased.node[0].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[0].out[3].channel delay 0.8s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[2].out[2].channel typename "\"net_QuorumBased.Channel4\""
+par net_QuorumBased.coord[2].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[2].out[2].channel delay 0.8s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[1].out[2].channel typename "\"net_QuorumBased.Channel4\""
+par net_QuorumBased.node[1].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[1].out[2].channel delay 0.8s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[1].out[2].channel typename "\"net_QuorumBased.Channel4\""
+par net_QuorumBased.coord[1].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[1].out[2].channel delay 0.8s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[2].out[1].channel typename "\"net_QuorumBased.Channel4\""
+par net_QuorumBased.node[2].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[2].out[1].channel delay 0.8s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[0].out[3].channel typename "\"net_QuorumBased.Channel4\""
+par net_QuorumBased.coord[0].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[0].out[3].channel delay 0.8s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[3].out[0].channel typename "\"net_QuorumBased.Channel4\""
+par net_QuorumBased.node[3].out[0].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[3].out[0].channel delay 0.8s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[3].out[3].channel typename "\"net_QuorumBased.Channel5\""
+par net_QuorumBased.coord[3].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[3].out[3].channel delay 1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[1].out[3].channel typename "\"net_QuorumBased.Channel5\""
+par net_QuorumBased.node[1].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[1].out[3].channel delay 1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[2].out[3].channel typename "\"net_QuorumBased.Channel5\""
+par net_QuorumBased.coord[2].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[2].out[3].channel delay 1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[2].out[2].channel typename "\"net_QuorumBased.Channel5\""
+par net_QuorumBased.node[2].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[2].out[2].channel delay 1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[1].out[3].channel typename "\"net_QuorumBased.Channel5\""
+par net_QuorumBased.coord[1].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[1].out[3].channel delay 1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[3].out[1].channel typename "\"net_QuorumBased.Channel5\""
+par net_QuorumBased.node[3].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[3].out[1].channel delay 1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[0].out[4].channel typename "\"net_QuorumBased.Channel5\""
+par net_QuorumBased.coord[0].out[4].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[0].out[4].channel delay 1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[4].out[1].channel typename "\"net_QuorumBased.Channel5\""
+par net_QuorumBased.node[4].out[1].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[4].out[1].channel delay 1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[3].out[4].channel typename "\"net_QuorumBased.Channel6\""
+par net_QuorumBased.coord[3].out[4].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[3].out[4].channel delay 1.3s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[2].out[3].channel typename "\"net_QuorumBased.Channel6\""
+par net_QuorumBased.node[2].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[2].out[3].channel delay 1.3s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[2].out[4].channel typename "\"net_QuorumBased.Channel6\""
+par net_QuorumBased.coord[2].out[4].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[2].out[4].channel delay 1.3s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[3].out[2].channel typename "\"net_QuorumBased.Channel6\""
+par net_QuorumBased.node[3].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[3].out[2].channel delay 1.3s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[1].out[4].channel typename "\"net_QuorumBased.Channel6\""
+par net_QuorumBased.coord[1].out[4].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[1].out[4].channel delay 1.3s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[4].out[2].channel typename "\"net_QuorumBased.Channel6\""
+par net_QuorumBased.node[4].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[4].out[2].channel delay 1.3s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[0].out[5].channel typename "\"net_QuorumBased.Channel6\""
+par net_QuorumBased.coord[0].out[5].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[0].out[5].channel delay 1.3s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[5].out[2].channel typename "\"net_QuorumBased.Channel6\""
+par net_QuorumBased.node[5].out[2].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[5].out[2].channel delay 1.3s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[3].out[5].channel typename "\"net_QuorumBased.Channel7\""
+par net_QuorumBased.coord[3].out[5].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[3].out[5].channel delay 0.7s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[3].out[3].channel typename "\"net_QuorumBased.Channel7\""
+par net_QuorumBased.node[3].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[3].out[3].channel delay 0.7s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[2].out[5].channel typename "\"net_QuorumBased.Channel7\""
+par net_QuorumBased.coord[2].out[5].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[2].out[5].channel delay 0.7s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[4].out[3].channel typename "\"net_QuorumBased.Channel7\""
+par net_QuorumBased.node[4].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[4].out[3].channel delay 0.7s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[1].out[5].channel typename "\"net_QuorumBased.Channel7\""
+par net_QuorumBased.coord[1].out[5].channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[1].out[5].channel delay 0.7s
+attr mutable ""
+attr unit s
+par net_QuorumBased.node[5].out[3].channel typename "\"net_QuorumBased.Channel7\""
+par net_QuorumBased.node[5].out[3].channel disabled false
+attr mutable ""
+par net_QuorumBased.node[5].out[3].channel delay 0.7s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[0].outToC.channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.coord[0].outToC.channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[0].outToC.channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.client[0].out.channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.client[0].out.channel disabled false
+attr mutable ""
+par net_QuorumBased.client[0].out.channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[1].outToC.channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.coord[1].outToC.channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[1].outToC.channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.client[1].out.channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.client[1].out.channel disabled false
+attr mutable ""
+par net_QuorumBased.client[1].out.channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[2].outToC.channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.coord[2].outToC.channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[2].outToC.channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.client[2].out.channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.client[2].out.channel disabled false
+attr mutable ""
+par net_QuorumBased.client[2].out.channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.coord[3].outToC.channel typename "\"net_QuorumBased.Channel1\""
+par net_QuorumBased.coord[3].outToC.channel disabled false
+attr mutable ""
+par net_QuorumBased.coord[3].outToC.channel delay 0.1s
+attr mutable ""
+attr unit s
+par net_QuorumBased.client[3].out.channel typename "\"net_QuorumBased.Channel2\""
+par net_QuorumBased.client[3].out.channel disabled false
+attr mutable ""
+par net_QuorumBased.client[3].out.channel delay 0.2s
+attr mutable ""
+attr unit s
+par net_QuorumBased.client[0] typename "\"Client\""
+par net_QuorumBased.client[1] typename "\"Client\""
+par net_QuorumBased.client[2] typename "\"Client\""
+par net_QuorumBased.client[3] typename "\"Client\""
+par net_QuorumBased.node[0] typename "\"Node\""
+par net_QuorumBased.node[1] typename "\"Node\""
+par net_QuorumBased.node[2] typename "\"Node\""
+par net_QuorumBased.node[3] typename "\"Node\""
+par net_QuorumBased.node[4] typename "\"Node\""
+par net_QuorumBased.node[5] typename "\"Node\""
+par net_QuorumBased.coord[0] typename "\"Coordinator\""
+par net_QuorumBased.coord[0] n 6
+par net_QuorumBased.coord[0] nw 4
+par net_QuorumBased.coord[0] nr 3
+par net_QuorumBased.coord[1] typename "\"Coordinator\""
+par net_QuorumBased.coord[1] n 6
+par net_QuorumBased.coord[1] nw 4
+par net_QuorumBased.coord[1] nr 3
+par net_QuorumBased.coord[2] typename "\"Coordinator\""
+par net_QuorumBased.coord[2] n 6
+par net_QuorumBased.coord[2] nw 4
+par net_QuorumBased.coord[2] nr 3
+par net_QuorumBased.coord[3] typename "\"Coordinator\""
+par net_QuorumBased.coord[3] n 6
+par net_QuorumBased.coord[3] nw 4
+par net_QuorumBased.coord[3] nr 3
+par net_QuorumBased typename "\"net_QuorumBased\""
+par net_QuorumBased N 6
+par net_QuorumBased NW 4
+par net_QuorumBased NR 3
+par net_QuorumBased NumClient 4
+
